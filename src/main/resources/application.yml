@@ -49,3 +49,8 @@ logging:
 spring.servlet.multipart:
   max-file-size: 50MB
   max-request-size: 50MB
+
+app:
+  jwt:
+    secret: dG9rZW5zZWNyZXRrZXlmb3Jkb2NtaW5kYXBwbGljYXRpb24yMDI1eXl5eQ==
+    expiration-ms: 86400000     # 24 hours
